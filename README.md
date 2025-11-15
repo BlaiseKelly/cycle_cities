@@ -6,7 +6,7 @@ cycle routes for a number of cities, picked for personal interest and
 knowledge of which ones might have good infrastructure, were imported,
 plotted and some stats calculated (table below).
 
-    file:///C:/Users/blais/AppData/Local/Temp/Rtmp2xcRft/file64e812ac3315/widget64e81f0a338d.html screenshot completed
+    file:///C:/Users/blais/AppData/Local/Temp/Rtmpc5af87/file7308193d6a3e/widget73083a737a58.html screenshot completed
 
 ![](README_files/figure-commonmark/unnamed-chunk-1-1.png)
 
