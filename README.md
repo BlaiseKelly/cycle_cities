@@ -6,18 +6,18 @@ cycle routes for a number of cities, picked for personal interest and
 knowledge of which ones might have good infrastructure, were imported,
 plotted and some stats calculated (table below).
 
+    FALSE 
+    FALSE Attaching package: 'dplyr'
 
-    Attaching package: 'dplyr'
+    FALSE The following objects are masked from 'package:stats':
+    FALSE 
+    FALSE     filter, lag
 
-    The following objects are masked from 'package:stats':
+    FALSE The following objects are masked from 'package:base':
+    FALSE 
+    FALSE     intersect, setdiff, setequal, union
 
-        filter, lag
-
-    The following objects are masked from 'package:base':
-
-        intersect, setdiff, setequal, union
-
-    file:///C:/Users/blais/AppData/Local/Temp/RtmpYF5NUO/file338070e817ba/widget33807cd659be.html screenshot completed
+    FALSE file:///C:/Users/blais/AppData/Local/Temp/RtmpMvnAMV/file7a605245289c/widget7a60e42893.html screenshot completed
 
 ![](README_files/figure-commonmark/setup-1.png)
 
