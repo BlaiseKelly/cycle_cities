@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "cycle_cities"
+  navbar:
+    left:
+      - href: README.qmd
+        text: Home
+      - href: all_cities.html
+        text: City Cycle Paths
+      - about.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+
+
