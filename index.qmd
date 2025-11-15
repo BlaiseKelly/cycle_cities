@@ -1,5 +1,6 @@
 ---
 title: "cycle_cities"
+format: html
 ---
 
 Using the [osmactive package](https://github.com/nptscot/osmactive), the cycle routes for a number of cities, picked for personal interest and knowledge of which ones might have good infrastructure, were imported, plotted and some stats calculated (table below).
