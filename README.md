@@ -6,20 +6,9 @@ cycle routes for a number of cities, picked for personal interest and
 knowledge of which ones might have good infrastructure, were imported,
 plotted and some stats calculated (table below).
 
-    FALSE 
-    FALSE Attaching package: 'dplyr'
+    file:///C:/Users/blais/AppData/Local/Temp/Rtmp2xcRft/file64e812ac3315/widget64e81f0a338d.html screenshot completed
 
-    FALSE The following objects are masked from 'package:stats':
-    FALSE 
-    FALSE     filter, lag
-
-    FALSE The following objects are masked from 'package:base':
-    FALSE 
-    FALSE     intersect, setdiff, setequal, union
-
-    FALSE file:///C:/Users/blais/AppData/Local/Temp/RtmpMvnAMV/file7a605245289c/widget7a60e42893.html screenshot completed
-
-![](README_files/figure-commonmark/setup-1.png)
+![](README_files/figure-commonmark/unnamed-chunk-1-1.png)
 
 On average the Dutch cities have over 1metre of segregated cycle
 infrastructure per person in each city. In the UK it is around half of
