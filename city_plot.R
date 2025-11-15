@@ -3,6 +3,7 @@ library(osmactive)
 library(httr)
 library(mapview)
 library(tmap)
+library(tmap.networks)
 library(dplyr)
 library(terra)
 library(exactextractr)
@@ -100,6 +101,7 @@ cities <- c("Manchester","Liverpool", "London", "Bristol", "Cardiff", "Swansea",
 
 cities2plot <- c("Paris", "Rotterdam", "Nieuwegein","Apeldoorn", "Utrecht", "Vienna", "London", "Manchester", "Zurich", "Bristol")
 c <- "Utrecht"
+cities2plot <- c("Apeldoorn")
 #net_list <- list()
 for (c in cities2plot){
 
