@@ -6,7 +6,7 @@ website:
   title: "cycle_cities"
   navbar:
     left:
-      - href: README.qmd
+      - href: README.md
         text: Home
       - href: all_cities.html
         text: City Cycle Paths
