@@ -2,6 +2,40 @@
 title: "cycle_cities"
 ---
 
-This is a Quarto website.
+Using the [osmactive package](https://github.com/nptscot/osmactive), the cycle routes for a number of cities, picked for personal interest and knowledge of which ones might have good infrastructure, were imported, plotted and some stats calculated (table below).
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+```{r setup, include=FALSE}
+library(DT)
+library(dplyr)
+
+```
+
+
+```{r, echo = FALSE, warning=FALSE, error=FALSE}
+
+
+t1 <- readRDS("city_table.RDS")
+t2 <- readRDS("city_table_2.RDS")
+
+t <- rbind(t1,t2) |> 
+  mutate(across(where(is.numeric), ~ round(.x, digits = 2)))
+
+rownames(t) <- NULL
+names(t) <- c("City", "City area (km2)", "City Population", "driving routes (km)", "Cycling routes (km)", "Segregated cycle routes (km)",
+              "% segregated", "metres of cycle route per person", "metres of segregated routes per person", "metres of driving routes per person",
+              "km of cycle routes per km2", "km of segregated routes per km2", "km of driving routes per km2")
+
+DT::datatable(t)
+
+```
+
+On average the Dutch cities have over 1metre of segregated cycle infrastructure per person in each city. In the UK it is around half of this.
+
+A plot of some of the cities is shown below. An interactive plot is shown in the tab [City Cycle Paths]("https://blaisekelly.github.io/cycle_cities/all_cities.html")
+
+![](plots/Manchester_cycle_paths.png)
+![](plots/Bristol_cycle_paths.png)
+![](plots/London_cycle_paths.png)
+![](plots/Paris_cycle_paths.png)
+![](plots/Utrecht_cycle_paths.png)
+![](plots/Vienna_cycle_paths.png)

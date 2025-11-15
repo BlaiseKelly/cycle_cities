@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "cycle_cities",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Using the osmactive package, the cycle routes for a number of cities, picked for personal interest and knowledge of which ones might have good infrastructure, were imported, plotted and some stats calculated (table below).\n\n\n\n\n\n\nOn average the Dutch cities have over 1metre of segregated cycle infrastructure per person in each city. In the UK it is around half of this.\nA plot of some of the cities is shown below. An interactive plot is shown in the tab City Cycle Paths"
   },
   {
     "objectID": "about.html",
