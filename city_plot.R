@@ -98,7 +98,7 @@ cities <- c("Manchester","Liverpool", "London", "Bristol", "Cardiff", "Swansea",
 
 
 
-cities2plot <- c("Paris", "Rotterdam", "Nieuwegein", "Utrecht", "Vienna", "London", "Manchester", "Zurich", "Bristol")
+cities2plot <- c("Paris", "Rotterdam", "Nieuwegein","Apeldoorn", "Utrecht", "Vienna", "London", "Manchester", "Zurich", "Bristol")
 c <- "Utrecht"
 #net_list <- list()
 for (c in cities2plot){
