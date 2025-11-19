@@ -20,27 +20,26 @@ library(dplyr)
 ```{r, echo = FALSE, warning=FALSE, error=FALSE}
 
 
-t1 <- readRDS("city_table.RDS")
-t2 <- readRDS("city_table_2.RDS")
-
-t <- rbind(t1,t2) |> 
-  mutate(across(where(is.numeric), ~ round(.x, digits = 2))) |> 
-  mutate(cycle_km2 = cycle_km2/1000,
-         seg_km2 = seg_km2/1000,
-         drive_km2 = drive_km2/1000)
+t <- readRDS("data/city_table.RDS") |> 
+  mutate(across(where(is.numeric), ~ round(.x, digits = 2)))
+  # mutate(cycle_km2 = cycle_km2/1000,
+  #        seg_km2 = seg_km2/1000,
+  #        drive_km2 = drive_km2/1000)
 
 rownames(t) <- NULL
-names(t) <- c("City", "City area (km2)", "City Population", "driving routes (km)", "Cycling routes (km)", "Segregated cycle routes (km)",
+names(t) <- c("City", "City area (km2)", "City Population (2024)", "driving routes (km)", "Cycling routes (km)", "Segregated cycle routes (km)",
               "% segregated", "metres of cycle route per person", "metres of segregated routes per person", "metres of driving routes per person",
               "km of cycle routes per km2", "km of segregated routes per km2", "km of driving routes per km2")
 
-DT::datatable(t,)
+DT::datatable(t)
 
 ```
 
-On average the Dutch cities have over 1metre of segregated cycle infrastructure per person in each city. In the UK it is around half of this.
+On average the Dutch cities have over 1 metre of segregated cycle infrastructure per person in each city. In the UK it is around half of this.
 
 A plot of some of the cities is shown below. An interactive plot is shown in the tab [City Cycle Paths]("https://blaisekelly.github.io/cycle_cities/all_cities.html")
+
+![](plots/Apeldoorn_cycle_paths.png)
 
 ![](plots/Manchester_cycle_paths.png)
 ![](plots/Bristol_cycle_paths.png)
